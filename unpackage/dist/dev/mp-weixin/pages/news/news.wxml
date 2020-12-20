@@ -1,0 +1,1 @@
+<view><view class="room"><view class="other"><image src="../../static/logo.png" mode></image><view class="text">123</view></view><view class="my"><view class="text">123</view><image src="../../static/logo.png" mode></image></view></view></view>

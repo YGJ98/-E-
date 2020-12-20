@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nav-bar": "/components/navBar/navBar",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "list-card": "/components/list-card/list-card"
+  }
+}

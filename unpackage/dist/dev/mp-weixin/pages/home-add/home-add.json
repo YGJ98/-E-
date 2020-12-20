@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "add-bar": "/components/add-bar/add-bar",
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "update-img": "/components/update-img/update-img"
+  }
+}

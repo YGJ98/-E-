@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/update-img/update-img"],{"2c51":function(t,n,e){},"625f":function(t,n,e){"use strict";e.r(n);var u=e("7672"),a=e("98e8");for(var i in a)"default"!==i&&function(t){e.d(n,t,(function(){return a[t]}))}(i);e("b6d0");var c,r=e("f0c5"),o=Object(r["a"])(a["default"],u["b"],u["c"],!1,null,null,null,!1,u["a"],c);n["default"]=o.exports},7672:function(t,n,e){"use strict";e.d(n,"b",(function(){return a})),e.d(n,"c",(function(){return i})),e.d(n,"a",(function(){return u}));var u={uniIcons:function(){return Promise.all([e.e("common/vendor"),e.e("components/uni-icons/uni-icons")]).then(e.bind(null,"aacd"))}},a=function(){var t=this,n=t.$createElement;t._self._c},i=[]},"98e8":function(t,n,e){"use strict";e.r(n);var u=e("ac3b"),a=e.n(u);for(var i in u)"default"!==i&&function(t){e.d(n,t,(function(){return u[t]}))}(i);n["default"]=a.a},ac3b:function(t,n,e){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var e={props:{updateList:{type:Array,default:function(){return[]}},updateVideo:{type:Array,default:function(){return[]}}},data:function(){return{lableList:[],tabIndex:0}},created:function(){this.getLable()},methods:{clickLable:function(t){this.tabIndex=t;var n=this.lableList[t].name;this.$emit("tab",n)},update:function(){this.$emit("update")},previewImg:function(n){t.previewImage({urls:this.updateList})},getLable:function(){var t=this;this.$api.get_label().then((function(n){var e=n.data;e.shift(),t.lableList=e}))}}};n.default=e}).call(this,e("543d")["default"])},b6d0:function(t,n,e){"use strict";var u=e("2c51"),a=e.n(u);a.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/update-img/update-img-create-component',
+    {
+        'components/update-img/update-img-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("625f"))
+        })
+    },
+    [['components/update-img/update-img-create-component']]
+]);

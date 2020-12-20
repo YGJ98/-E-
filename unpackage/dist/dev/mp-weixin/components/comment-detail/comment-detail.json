@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "comment-detail": "/components/comment-detail/comment-detail"
+  }
+}

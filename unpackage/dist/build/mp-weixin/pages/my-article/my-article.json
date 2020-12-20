@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的文章",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#FEDE33",
+  "usingComponents": {
+    "list-card": "/components/list-card/list-card"
+  }
+}
